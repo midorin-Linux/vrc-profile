@@ -107,6 +107,27 @@ function App() {
           </div>
         </div>
       </main>
+
+      {/*サムネイル用*/}
+      {/*<main className="relative min-h-screen w-screen overflow-hidden">*/}
+      {/*  <div className="absolute inset-0">*/}
+      {/*    <img*/}
+      {/*      src={bgImg}*/}
+      {/*      alt="background"*/}
+      {/*      className="h-full w-full object-cover"*/}
+      {/*    />*/}
+      {/*  </div>*/}
+      {/*  <p className="absolute bottom-2 left-2 text-xs text-white/60">*/}
+      {/*    ワールド: ParusuPblx / キャラクター: AOあお堂*/}
+      {/*  </p>*/}
+      {/*  <div className="absolute top-8 right-8 w-240 max-w-[90vw] rounded-lg bg-black/30 p-6 text-white backdrop-blur-sm mt-24">*/}
+      {/*    <div>*/}
+      {/*      <div className="flex flex-row items-end gap-4 justify-center">*/}
+      {/*        <h2 className="text-[156px] font-medium">やぁーさ<br />VRC自己紹介</h2>*/}
+      {/*      </div>*/}
+      {/*    </div>*/}
+      {/*  </div>*/}
+      {/*</main>*/}
     </>
   )
 }
