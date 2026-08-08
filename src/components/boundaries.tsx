@@ -13,8 +13,8 @@ const colorMap: Record<Degree["degree"], string> = {
 export function BoundariesPropCard(degree: Degree) {
   const degreeMap = colorMap[degree.degree]
   return (
-    <div className="flex h-15 w-full flex-row items-center gap-1 rounded-lg border border-gray-400 pl-4">
-      <p className="text-lg font-light text-white/80">
+    <div className="flex min-h-14 w-full flex-row items-center gap-1 rounded-lg border border-gray-400 px-3 sm:min-h-15 sm:px-4">
+      <p className="text-base font-light text-white/80 sm:text-lg">
         {degree.action}: {degreeMap}
       </p>
     </div>
